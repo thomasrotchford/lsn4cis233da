@@ -1,0 +1,47 @@
+/*
+Name: Thomas Rotchford
+Course and Section: CIS233DA 27491 
+Instructor: Brian Thurber
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Comic+Neue:wght@400;700&display=swap');
+
+@font-face {
+  font-family: 'Comic Mono';
+  src: url('https://cdn.jsdelivr.net/gh/dtinth/comic-mono-font@master/ComicMono.ttf') format('truetype');
+  font-display: swap;
+}
+
+:root {
+  /* Background colors */
+  --bg-main: #fff8ec;
+  --bg-secondary: #e6f5ff;
+  --bg-tertiary: #f4e8ff;
+
+  /* Text colors */
+  --text-main: #352d3f;
+  --text-secondary: #204a63;
+  --text-tertiary: #57366a;
+
+  /* Fonts */
+  --font-main: 'Comic Neue', 'Comic Sans MS', 'Trebuchet MS', sans-serif;
+  --font-heading: 'Balsamiq Sans', 'Comic Sans MS', 'Trebuchet MS', sans-serif;
+  --font-code: 'Comic Mono', 'Courier New', 'Lucida Console', monospace;
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  font-family: var(--font-main);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-secondary);
+  font-family: var(--font-heading);
+}
+
+code, pre {
+  background-color: var(--bg-tertiary);
+  color: var(--text-tertiary);
+  font-family: var(--font-code);
+}
