@@ -132,3 +132,35 @@ code, pre {
   color: var(--text-tertiary);
   font-family: var(--font-code);
 }
+
+/* Code styling */
+code {
+  font-family: var(--font-code);
+  color: var(--text-tertiary);
+}
+
+/* Terminology list */
+dl {
+  width: 90%;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 2fr;
+  grid-template-rows: repeat(5, auto);
+  gap: 1em;
+}
+
+/* Terms */
+dt {
+  color: var(--text-tertiary);
+  background-color: var(--bg-tertiary);
+  border-left: 6px solid var(--bg-dark);
+  padding: 0.5em;
+}
+
+/* Definitions */
+dd {
+  margin: 0;
+  padding: 0.5em;
+  border-bottom: 2px solid var(--text-secondary);
+}
