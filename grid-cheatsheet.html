@@ -93,6 +93,260 @@
 
         <dl class="properties">
 
+    <div>
+        <dt>display</dt>
+        <dd>Grid Container</dd>
+        <dd><code>
+            grid; /* Creates a grid */
+            inline-grid; /* Creates an inline grid */
+        </code></dd>
+    </div>
+
+    <div>
+        <dt>grid-template-columns</dt>
+        <dd>Grid Container</dd>
+        <dd><code>
+            auto; /* Automatic size */
+            1fr; /* One share of space */
+            100px; /* Fixed width */
+        </code></dd>
+    </div>
+
+    <div>
+        <dt>grid-template-rows</dt>
+        <dd>Grid Container</dd>
+        <dd><code>
+            auto; /* Automatic size */
+            1fr; /* One share of space */
+            100px; /* Fixed height */
+        </code></dd>
+    </div>
+
+    <div>
+        <dt>grid-template-areas</dt>
+        <dd>Grid Container</dd>
+        <dd><code>
+            none; /* No named areas */
+            "header"; /* Names an area */
+        </code></dd>
+    </div>
+
+    <div>
+        <dt>grid-template</dt>
+        <dd>Grid Container</dd>
+        <dd><code>
+            none; /* No template */
+            100px / 1fr; /* Sets rows and columns */
+        </code></dd>
+    </div>
+
+    <div>
+        <dt>grid-column-gap</dt>
+        <dd>Grid Container</dd>
+        <dd><code>
+            normal; /* Default spacing */
+            10px; /* Space between columns */
+        </code></dd>
+    </div>
+
+    <div>
+        <dt>grid-row-gap</dt>
+        <dd>Grid Container</dd>
+        <dd><code>
+            normal; /* Default spacing */
+            10px; /* Space between rows */
+        </code></dd>
+    </div>
+
+    <div>
+        <dt>grid-gap</dt>
+        <dd>Grid Container</dd>
+        <dd><code>
+            10px; /* Equal spacing */
+            10px 20px; /* Row and column spacing */
+        </code></dd>
+    </div>
+
+    <div>
+        <dt>justify-items</dt>
+        <dd>Grid Container</dd>
+        <dd><code>
+            start; /* Aligns to start */
+            end; /* Aligns to end */
+            center; /* Centers items */
+            stretch; /* Fills available space */
+        </code></dd>
+    </div>
+
+    <div>
+        <dt>align-items</dt>
+        <dd>Grid Container</dd>
+        <dd><code>
+            start; /* Aligns to start */
+            end; /* Aligns to end */
+            center; /* Centers items */
+            stretch; /* Fills available space */
+        </code></dd>
+    </div>
+
+    <div>
+        <dt>justify-content</dt>
+        <dd>Grid Container</dd>
+        <dd><code>
+            start; /* Aligns to start */
+            end; /* Aligns to end */
+            center; /* Centers grid */
+            space-between; /* Space between tracks */
+            space-around; /* Space around tracks */
+            space-evenly; /* Equal spacing */
+            stretch; /* Expands tracks */
+        </code></dd>
+    </div>
+
+    <div>
+        <dt>align-content</dt>
+        <dd>Grid Container</dd>
+        <dd><code>
+            start; /* Aligns to start */
+            end; /* Aligns to end */
+            center; /* Centers grid */
+            space-between; /* Space between tracks */
+            space-around; /* Space around tracks */
+            space-evenly; /* Equal spacing */
+            stretch; /* Expands tracks */
+        </code></dd>
+    </div>
+
+    <div>
+        <dt>grid-auto-columns</dt>
+        <dd>Grid Container</dd>
+        <dd><code>
+            auto; /* Automatic width */
+            100px; /* Fixed width */
+            1fr; /* Flexible width */
+        </code></dd>
+    </div>
+
+    <div>
+        <dt>grid-auto-rows</dt>
+        <dd>Grid Container</dd>
+        <dd><code>
+            auto; /* Automatic height */
+            100px; /* Fixed height */
+            1fr; /* Flexible height */
+        </code></dd>
+    </div>
+
+    <div>
+        <dt>grid-auto-flow</dt>
+        <dd>Grid Container</dd>
+        <dd><code>
+            row; /* Places items in rows */
+            column; /* Places items in columns */
+            dense; /* Fills empty spaces */
+        </code></dd>
+    </div>
+
+    <div>
+        <dt>grid</dt>
+        <dd>Grid Container</dd>
+        <dd><code>
+            none; /* Resets grid settings */
+            100px / 1fr; /* Sets rows and columns */
+        </code></dd>
+    </div>
+
+    <div>
+        <dt>grid-column-start</dt>
+        <dd>Grid Item</dd>
+        <dd><code>
+            auto; /* Automatic start */
+            1; /* Starts at line 1 */
+            span 2; /* Spans two columns */
+        </code></dd>
+    </div>
+
+    <div>
+        <dt>grid-column-end</dt>
+        <dd>Grid Item</dd>
+        <dd><code>
+            auto; /* Automatic end */
+            3; /* Ends at line 3 */
+            span 2; /* Spans two columns */
+        </code></dd>
+    </div>
+
+    <div>
+        <dt>grid-row-start</dt>
+        <dd>Grid Item</dd>
+        <dd><code>
+            auto; /* Automatic start */
+            1; /* Starts at line 1 */
+            span 2; /* Spans two rows */
+        </code></dd>
+    </div>
+
+    <div>
+        <dt>grid-row-end</dt>
+        <dd>Grid Item</dd>
+        <dd><code>
+            auto; /* Automatic end */
+            3; /* Ends at line 3 */
+            span 2; /* Spans two rows */
+        </code></dd>
+    </div>
+
+    <div>
+        <dt>grid-column</dt>
+        <dd>Grid Item</dd>
+        <dd><code>
+            auto; /* Automatic placement */
+            1 / 3; /* Starts at 1, ends at 3 */
+        </code></dd>
+    </div>
+
+    <div>
+        <dt>grid-row</dt>
+        <dd>Grid Item</dd>
+        <dd><code>
+            auto; /* Automatic placement */
+            1 / 3; /* Starts at 1, ends at 3 */
+        </code></dd>
+    </div>
+
+    <div>
+        <dt>grid-area</dt>
+        <dd>Grid Item</dd>
+        <dd><code>
+            auto; /* Automatic placement */
+            header; /* Uses a named area */
+        </code></dd>
+    </div>
+
+    <div>
+        <dt>justify-self</dt>
+        <dd>Grid Item</dd>
+        <dd><code>
+            auto; /* Uses container setting */
+            start; /* Aligns to start */
+            end; /* Aligns to end */
+            center; /* Centers item */
+            stretch; /* Fills space */
+        </code></dd>
+    </div>
+
+    <div>
+        <dt>align-self</dt>
+        <dd>Grid Item</dd>
+        <dd><code>
+            auto; /* Uses container setting */
+            start; /* Aligns to start */
+            end; /* Aligns to end */
+            center; /* Centers item */
+            stretch; /* Fills space */
+        </code></dd>
+    </div>
+
         </dl>
 
     </main>
